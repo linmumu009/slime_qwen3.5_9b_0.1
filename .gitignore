@@ -2,6 +2,9 @@
 .agents/
 .codex/
 
+# Local research source trees (never upload)
+/reference/
+
 # Local server access notes and credentials
 SSH_PRIVATE_KEY_LOGIN_*.md
 .env

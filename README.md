@@ -18,6 +18,7 @@
 | 编号 | 日期 | 摘要 | 验证 | 完整说明 |
 | --- | --- | --- | --- | --- |
 | 001 | 2026-07-16 | 初始化 Git 仓库与迭代文档规范；增加敏感连接信息忽略规则 | 本地仓库结构与待提交文件检查通过 | [查看完整说明](docs/iterations/2026-07-16-001-repository-bootstrap.md) |
+| 002 | 2026-07-16 | 建立本地 `reference/` 研究区并下载官方 THUDM/slime，固定 Qwen3.5-9B 研究基线 | 上游 commit、目录完整性及 Git 忽略规则检查通过 | [查看完整说明](docs/iterations/2026-07-16-002-local-slime-reference.md) |
 
 ## 安全说明
 
