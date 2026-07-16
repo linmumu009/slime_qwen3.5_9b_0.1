@@ -19,6 +19,7 @@
 | --- | --- | --- | --- | --- |
 | 001 | 2026-07-16 | 初始化 Git 仓库与迭代文档规范；增加敏感连接信息忽略规则 | 本地仓库结构与待提交文件检查通过 | [查看完整说明](docs/iterations/2026-07-16-001-repository-bootstrap.md) |
 | 002 | 2026-07-16 | 建立本地 `reference/` 研究区并下载官方 THUDM/slime，固定 Qwen3.5-9B 研究基线 | 上游 commit、目录完整性及 Git 忽略规则检查通过 | [查看完整说明](docs/iterations/2026-07-16-002-local-slime-reference.md) |
+| 003 | 2026-07-16 | 建立轨迹 RL 数据准备与 Ascend 冒烟工具链，跑通 Qwen3.5-9B 的 16 卡算子验证及 TP=2 SGLang 离线生成 | 2 项单测通过；16/16 NPU 实算通过；模型成功生成 8 tokens | [查看完整说明](docs/iterations/2026-07-16-003-ascend-rl-readiness.md) |
 
 ## 安全说明
 
