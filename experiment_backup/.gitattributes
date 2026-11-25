@@ -1,0 +1,2 @@
+# Preserve exact package bytes across Windows/Linux checkouts for SHA256SUMS.
+2026-11-25/** -text

@@ -20,6 +20,11 @@
 | 001 | 2026-07-16 | 初始化 Git 仓库与迭代文档规范；增加敏感连接信息忽略规则 | 本地仓库结构与待提交文件检查通过 | [查看完整说明](docs/iterations/2026-07-16-001-repository-bootstrap.md) |
 | 002 | 2026-07-16 | 建立本地 `reference/` 研究区并下载官方 THUDM/slime，固定 Qwen3.5-9B 研究基线 | 上游 commit、目录完整性及 Git 忽略规则检查通过 | [查看完整说明](docs/iterations/2026-07-16-002-local-slime-reference.md) |
 | 003 | 2026-07-16 | 建立轨迹 RL 数据准备与 Ascend 冒烟工具链，跑通 Qwen3.5-9B 的 16 卡算子验证及 TP=2 SGLang 离线生成 | 2 项单测通过；16/16 NPU 实算通过；模型成功生成 8 tokens | [查看完整说明](docs/iterations/2026-07-16-003-ascend-rl-readiness.md) |
+| 004 | 2026-11-25 | 备份当前项目三台服务器上的必要实验数据及 19 个沙箱环境；去重、日志脱敏并提供校验和与恢复工具 | 1,449 个归档成员校验及恢复通过；19 个数据库完整性检查通过；26 条验证 SQL 与参考奖励复核通过 | [查看完整说明](docs/iterations/2026-11-25-004-experiment-data-backup.md) |
+
+## 实验数据备份
+
+服务器回收前的必要实验数据保存在 [`experiment_backup/`](experiment_backup/README.md)，当前快照为 [2026-11-25](experiment_backup/2026-11-25/README.md)。包括原始轨迹、处理后样本、报告、脱敏日志、脚本快照及沙箱数据库/文档；不包含模型权重和 checkpoint。校验与恢复方法见快照说明。
 
 ## 安全说明
 

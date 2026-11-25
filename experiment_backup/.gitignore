@@ -1,0 +1,15 @@
+# Keep restored files and large runtime artifacts outside the versioned backup.
+restored/
+.staging/
+models/
+checkpoints/
+cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.whl
+*.key
+*.pem
+.env*

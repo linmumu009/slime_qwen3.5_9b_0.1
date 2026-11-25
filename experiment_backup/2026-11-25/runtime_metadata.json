@@ -1,0 +1,168 @@
+{
+  "architecture": "aarch64",
+  "kernel": "5.10.0-136.12.0.96.2.ctl3.aarch64",
+  "containers": [
+    {
+      "name": "slime-qwen35-rl-8x-v1",
+      "image_reference": "quay.io/ascend/ms-swift@sha256:0116ad4e0b2b440b3ff7353f24fca741a3173b1e9fcea595c99d358347f47952",
+      "image_id": "sha256:91b2b09154f74ec6eb57511f875a4ceab2e5e7a6d11e937fe25323b516483f52",
+      "state": "exited",
+      "init": null,
+      "ipc_mode": "private",
+      "network_mode": "host",
+      "shm_size": 137438953472
+    },
+    {
+      "name": "slime-qwen35-sglang-cann9-t29",
+      "image_reference": "quay.io/ascend/ms-swift@sha256:0116ad4e0b2b440b3ff7353f24fca741a3173b1e9fcea595c99d358347f47952",
+      "image_id": "sha256:91b2b09154f74ec6eb57511f875a4ceab2e5e7a6d11e937fe25323b516483f52",
+      "state": "exited",
+      "init": null,
+      "ipc_mode": "host",
+      "network_mode": "host",
+      "shm_size": 137438953472
+    },
+    {
+      "name": "slime-qwen35-sglang-cann9-t28",
+      "image_reference": "quay.io/ascend/ms-swift@sha256:0116ad4e0b2b440b3ff7353f24fca741a3173b1e9fcea595c99d358347f47952",
+      "image_id": "sha256:91b2b09154f74ec6eb57511f875a4ceab2e5e7a6d11e937fe25323b516483f52",
+      "state": "exited",
+      "init": null,
+      "ipc_mode": "host",
+      "network_mode": "host",
+      "shm_size": 137438953472
+    },
+    {
+      "name": "slime-qwen35-sglang-cann9",
+      "image_reference": "quay.io/ascend/ms-swift@sha256:0116ad4e0b2b440b3ff7353f24fca741a3173b1e9fcea595c99d358347f47952",
+      "image_id": "sha256:91b2b09154f74ec6eb57511f875a4ceab2e5e7a6d11e937fe25323b516483f52",
+      "state": "exited",
+      "init": null,
+      "ipc_mode": "host",
+      "network_mode": "host",
+      "shm_size": 137438953472
+    },
+    {
+      "name": "slime-qwen35-sglang-rollout",
+      "image_reference": "quay.io/ascend/sglang@sha256:1dfacab884e54a3181e51fd5443d95a372de9e3bd5d3c994f735fa605a12be70",
+      "image_id": "sha256:15b12ffd00ed0e923b747fbc18344173b6f955cfdf02c84f6d898d9745bf0e39",
+      "state": "exited",
+      "init": null,
+      "ipc_mode": "host",
+      "network_mode": "host",
+      "shm_size": 137438953472
+    },
+    {
+      "name": "slime-qwen35-rl-dev",
+      "image_reference": "quay.io/ascend/ms-swift@sha256:0116ad4e0b2b440b3ff7353f24fca741a3173b1e9fcea595c99d358347f47952",
+      "image_id": "sha256:91b2b09154f74ec6eb57511f875a4ceab2e5e7a6d11e937fe25323b516483f52",
+      "state": "exited",
+      "init": null,
+      "ipc_mode": "host",
+      "network_mode": "host",
+      "shm_size": 137438953472
+    }
+  ],
+  "dependency_artifacts": [
+    {
+      "path": "cann9_assets/attentions-0.2-cp311-cp311-linux_aarch64.whl",
+      "bytes": 9920222,
+      "sha256": "c4197ae2f06ad00abdc3f966cbca1adf7e7651e65d2d8ab505336d879ee62dad"
+    },
+    {
+      "path": "cann9_assets/sgl_kernel_npu-2026.6.1-cp311-cp311-linux_aarch64.whl",
+      "bytes": 767036,
+      "sha256": "b0d85a733b824a118748b08b460f90fb420a4b8933f62c41fa7efa6a26a192b5"
+    },
+    {
+      "path": "cann9_assets/sglang_router-0.3.2-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+      "bytes": 31039654,
+      "sha256": "40a10f3817b80377c2ceb326b625f24bd06eb97426e5044de722295ec7fa79c0"
+    },
+    {
+      "path": "cann9_assets/torch-2.10.0+cpu-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 146519440,
+      "sha256": "1cfcb9b1558c6e52dffd0d4effce83b13c5ae5d97338164c372048c21f9cfccb"
+    },
+    {
+      "path": "cann9_assets/torch_memory_saver-0.0.8-cp311-cp311-linux_aarch64.whl",
+      "bytes": 319294,
+      "sha256": "55d6ec7cf57863e146198f9a11cd695b5c9867e17196f18746299f333569969d"
+    },
+    {
+      "path": "cann9_assets/torch_npu-2.10.0-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 32514994,
+      "sha256": "07e9d39a77577873c8a1a2d6741129d15d6b7a54d2c07a1cc3a294242689fea7"
+    },
+    {
+      "path": "cann9_assets/torchvision-0.25.0+cpu-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 2344844,
+      "sha256": "59be99d1c470ef470b134468aa6afa6f968081a503acb4ee883d70332f822e35"
+    },
+    {
+      "path": "cann9_torch28_assets/attentions-0.2-cp311-cp311-linux_aarch64.whl",
+      "bytes": 9883936,
+      "sha256": "113e10e61d7ae6ea6235d4be057696e60013542706375e11f03a845047e95f9b"
+    },
+    {
+      "path": "cann9_torch28_assets/deep_ep-1.0.0+7a396def.cann.9.0.0.b250-cp311-cp311-linux_aarch64.whl",
+      "bytes": 2474633,
+      "sha256": "2865f69be03d8f0a0c99e038d1b968fd227fb4fcacfdad64bdcae64a7da7a129"
+    },
+    {
+      "path": "cann9_torch28_assets/sgl_kernel_npu-2026.6.1-cp311-cp311-linux_aarch64.whl",
+      "bytes": 771332,
+      "sha256": "1d2b4bedce77a092d12adc906eb3afabd2ff4a5ba24e92b038d2ebe9b59f25a3"
+    },
+    {
+      "path": "cann9_torch28_assets/torch-2.8.0+cpu-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 102073276,
+      "sha256": "680129efdeeec3db5da3f88ee5d28c1b1e103b774aef40f9d638e2cce8f8d8d8"
+    },
+    {
+      "path": "cann9_torch28_assets/torch_memory_saver-0.0.8-cp311-cp311-linux_aarch64.whl",
+      "bytes": 319294,
+      "sha256": "deb76113dec867060a16f642863329c50000c92c7086f14b53f3ead1cc4b57d6"
+    },
+    {
+      "path": "cann9_torch28_assets/torch_npu-2.8.0.post2-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 25143494,
+      "sha256": "dc1f9526f0704bdb4f2b76d1706b14dcd35f8721f4fa08ef8cdf13af7c9051f9"
+    },
+    {
+      "path": "cann9_torch28_assets/torchvision-0.23.0-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 2395543,
+      "sha256": "01dc33ee24c79148aee7cdbcf34ae8a3c9da1674a591e781577b716d233b1fa6"
+    },
+    {
+      "path": "ray-2.56.0-cp311-cp311-manylinux2014_aarch64.whl",
+      "bytes": 73299499,
+      "sha256": "aea655831d25084cb343002a8e67a77b6aa552ddb776a65461d49f62884f096a"
+    },
+    {
+      "path": "sgl-kernel-npu-2026.7.2/output/attentions-0.2-cp311-cp311-linux_aarch64.whl",
+      "bytes": 9916388,
+      "sha256": "377d4e18cd2ee86d6164527254e1761f3687014c5ea4de4340858993ab0b534f"
+    },
+    {
+      "path": "sgl-kernel-npu-2026.7.2/output/sgl_kernel_npu-2026.6.1-cp311-cp311-linux_aarch64.whl",
+      "bytes": 771427,
+      "sha256": "eee7e23d334f1432317a06c67e7eaa2462308f023f697a57ae8a9b051e3f5fdc"
+    },
+    {
+      "path": "torch-2.8.0+cpu-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 102073276,
+      "sha256": "680129efdeeec3db5da3f88ee5d28c1b1e103b774aef40f9d638e2cce8f8d8d8"
+    },
+    {
+      "path": "torchvision-0.23.0-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "bytes": 2395543,
+      "sha256": "01dc33ee24c79148aee7cdbcf34ae8a3c9da1674a591e781577b716d233b1fa6"
+    },
+    {
+      "path": "wheelhouse/wandb-0.28.1-py3-none-manylinux_2_28_aarch64.whl",
+      "bytes": 24832138,
+      "sha256": "ae9ae6fb29e2e2b1d097ed8b75c0c0240c778c2a8cad1d996dee870a1e401c2c"
+    }
+  ]
+}

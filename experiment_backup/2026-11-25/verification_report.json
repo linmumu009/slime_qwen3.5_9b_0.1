@@ -1,0 +1,159 @@
+{
+  "snapshot_date": "2026-11-25",
+  "status": "passed",
+  "restoration": {
+    "archives": 3,
+    "members": 1449,
+    "original_bytes": 245650428,
+    "package_and_member_sha256": "passed",
+    "restored_to_new_directory": true
+  },
+  "json_files": 20,
+  "jsonl_files": 65,
+  "jsonl_records": 39960,
+  "sqlite_integrity": [
+    {
+      "environment_id": "sft/20260628_v15",
+      "result": "ok",
+      "sha256": "6d9c90cb5869dca751ba4865d4e682578105f984b52837a7f75adfdc8d9ef5f8"
+    },
+    {
+      "environment_id": "sft/20260628_v20",
+      "result": "ok",
+      "sha256": "a6ff7bcee2fb495cf01b55712b6212153ab50ba3ff32fc7e7eb117d4d8dc9d1d"
+    },
+    {
+      "environment_id": "sft/20260628_v21",
+      "result": "ok",
+      "sha256": "89ff536b314beadafbdfaab99033e9d69a990867262b5ebb0f2acd17613e733e"
+    },
+    {
+      "environment_id": "sft/20260628_v22",
+      "result": "ok",
+      "sha256": "610fbdff46d1b4c080f4932d7b122e15914e9d9b693643ad28369b14f1a753d9"
+    },
+    {
+      "environment_id": "sft/20260628_v23",
+      "result": "ok",
+      "sha256": "05b60391a9697519f11e92f971a316bb5d67756fc5a428aed509823144e36ce9"
+    },
+    {
+      "environment_id": "sft/20260628_v24",
+      "result": "ok",
+      "sha256": "29901a0a3249632dd8b9cfc38b899a41dd2e802ce0a5708397d862e5fc1a52c2"
+    },
+    {
+      "environment_id": "sft/20260628_v25",
+      "result": "ok",
+      "sha256": "af91e6eb97c8b48c203a1e348a7810ecff64a741c9d20e49516f9ab112c154c8"
+    },
+    {
+      "environment_id": "sft/20260628_v26",
+      "result": "ok",
+      "sha256": "34022d9f797e117da627f759649ebda273903617a7be1f059fe7b156b9b16df9"
+    },
+    {
+      "environment_id": "sft/20260628_v31",
+      "result": "ok",
+      "sha256": "a61b11501fad5bae6806f4ae5b3e442d030ca2d45fe11008f31139d873cd2eb7"
+    },
+    {
+      "environment_id": "sft/20260628_v32",
+      "result": "ok",
+      "sha256": "b47a463c498763eab5314cbc2fc4776cac61cc9cbe10d7602d3feed874a3a023"
+    },
+    {
+      "environment_id": "sft/20260628_v35",
+      "result": "ok",
+      "sha256": "30e99d642808852aa1f998b8b92823252c1f3aea8406cd0ae3dd60c66a457ef4"
+    },
+    {
+      "environment_id": "sft/20260628_v39",
+      "result": "ok",
+      "sha256": "8e34285ff2e8b88b1c07ccbbaa1343fcd8e89a2ed90c7fb3449e916e7c319301"
+    },
+    {
+      "environment_id": "sft/20260628_v41",
+      "result": "ok",
+      "sha256": "95ef6210c6e64e4bbcc85f381362b145061c7c8f9ca181862061154b1c22ca6d"
+    },
+    {
+      "environment_id": "sft/20260628_v42",
+      "result": "ok",
+      "sha256": "e7b321666b532425cf181bd6348aafd68324680dc9928a155871b342a3a9d61c"
+    },
+    {
+      "environment_id": "sft/20260628_v43",
+      "result": "ok",
+      "sha256": "cbe80b1877593d3801bb36599704e52f66c6705175dbc52e8d805cd96f32afc8"
+    },
+    {
+      "environment_id": "sft/20260628_v44",
+      "result": "ok",
+      "sha256": "0801026e93d522c939eedaf8efa64427d8bb613e80153d017f781acb84b90629"
+    },
+    {
+      "environment_id": "sft/20260628_v45",
+      "result": "ok",
+      "sha256": "fef9251ddadcd2b9a1cf2c9ab6ea8ecf01293560adb4dce814d765b195d55915"
+    },
+    {
+      "environment_id": "sft/20260628_v46",
+      "result": "ok",
+      "sha256": "376fc58c926773d2abfe06f4c59b9f2e3a8dc145fcd1c3ab8af28e5b6313d8b8"
+    },
+    {
+      "environment_id": "sft/20260628_v50",
+      "result": "ok",
+      "sha256": "938c19b59cd52459f8581df2290424f9cb61a2b31431e1ccc60156189717a063"
+    }
+  ],
+  "raw_trajectories": 2028,
+  "v3_splits": {
+    "train": {
+      "records": 1817,
+      "sha256": "f37af00f3569932564178a5d9a6e6e66a6f37b4dca0c2710cf71cb5653770ee2"
+    },
+    "eval": {
+      "records": 202,
+      "sha256": "663cc5c7d8c9c8d5a6419a2aec9d9d4f1d3d540cdea2c7dd1ae0ae1df4d64f5b"
+    }
+  },
+  "verifier_sql_rechecks": {
+    "passed": 26,
+    "total": 26
+  },
+  "reference_reward_audit": {
+    "reference_records": 2028,
+    "environment_records": 27,
+    "verifier_records": 26,
+    "scored_records": 26,
+    "unscored_records": 1,
+    "full_reward_records": 26,
+    "safe_records": 26,
+    "required_table_records": 26,
+    "gold_evidence_records": 26,
+    "score_distribution": {
+      "1.0": 26
+    }
+  },
+  "runtime_metadata_limitations": "All six matching containers were exited; no containers were started and no live Python package inventory was collected. Image IDs and 20 wheel hashes are retained.",
+  "unverified": [
+    "Full model inference and training",
+    "Reconstruction of native Ascend runtime without downloading dependencies",
+    "Backup of projects outside the user-confirmed slime scope"
+  ],
+  "publication_secret_scan": {
+    "archive_members_scanned": 1449,
+    "findings_after_redaction": 0,
+    "redacted_logs": 2,
+    "checks": [
+      "private-key headers",
+      "known GitHub/OpenAI/HuggingFace/AWS token patterns",
+      "credential-bearing HTTP URLs",
+      "quoted credential assignments in text",
+      "exact removed authentication values across every member"
+    ],
+    "limitations": "Pattern-based scan; does not prove absence of secrets in arbitrary unknown formats."
+  }
+}

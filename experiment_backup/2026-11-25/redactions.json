@@ -1,0 +1,20 @@
+[
+  {
+    "path": "logs/sglang_qwen35_t29_manual_probe.log",
+    "reason": "Remove API authentication value from server diagnostic log before Git publication",
+    "source_bytes": 35032,
+    "source_sha256": "4e440a40cd7f91c4dce125bf2fcd427b620867e5f2096ddb3bdcefc9483e621d",
+    "bytes": 35022,
+    "sha256": "32599175d03b7e7248ccb9bd2f9e2d183179e9f935ddf94fe73cbf1c3fa2fa84",
+    "redacted_values": 1
+  },
+  {
+    "path": "logs/sglang_qwen35_t29_private_ip.log",
+    "reason": "Remove API authentication value from server diagnostic log before Git publication",
+    "source_bytes": 38579,
+    "source_sha256": "6de25a280935c314d5ecb76966041a15c410f5489d55f403ba2543e9af211a15",
+    "bytes": 38569,
+    "sha256": "143dfb61ff673da5dc3d45de0bc33b88887c3a2a00cc617f08372752679c719d",
+    "redacted_values": 1
+  }
+]
